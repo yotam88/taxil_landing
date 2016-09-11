@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="he">
+
+<head>
+    <title>TaxIL | החזר מס</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="TSW WebCoder">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="shortcut icon" href="images/Logo_Choose_V3.png">
+    <link rel="stylesheet" href="css/thank-you.css">
+    <link href="open-sans/stylesheet.css" rel="stylesheet" type="text/css">
+        
+    <!-- google analytics universal code -->
+     
+    
+    
+    <!-- end google analytics universal code -->
+    
+</head>
+
+<body>
+
+    <section id="mainsec">
+        <div class="container">
+            <h1> תודה שפנית אלינו! </h1>
+            <h2 class="thanksheading"> נחזור אליכם בהקדם </h2>
+        </div>
+
+
+        <section id="mainsec">
+            <div class="container">
+                <a href="index.html">
+                    <img class="logo" src="images/Logo_Choose_V3.png" alt="TaxIL logo" id="logo">
+                </a>
+                <p>בעוד <span id="count">10</span> שניות תועברו לעמוד הבית</p>
+            <p class="quick_load">למעבר מהיר לדף הבית <a href="http://www.taxil.co.il">לחצו כאן</a></p>
+            </div>
+        </section>
+
+   <script type="text/javascript">
+        window.onload = function() {
+    
+            (function() {
+                var counter = 10;
+    
+                setInterval(function() {
+                    counter--;
+                    if (counter >= 0) {
+                        span = document.getElementById("count");
+                        span.innerHTML = counter;
+                    }
+                    // Display 'counter' wherever you want to display it.
+                    if (counter === 0) {
+                        //alert('Enjoy!');
+                        clearInterval(counter);
+                    }
+    
+                }, 1000);
+    
+            })();
+    
+        }
+    </script>
+
+    <meta http-equiv="refresh" content="10;url=http://www.taxil.co.il" />
+            
+
+            
+</body>
+
+</html>

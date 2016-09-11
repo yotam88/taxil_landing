@@ -1,0 +1,43 @@
+body {
+    direction: rtl;
+    font-family: opensans, sans-serif;
+    padding: 150px 0;
+    background-color: #0c0c0c;
+}
+
+#mainsec h1 {
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+#mainsec .thanksheading {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+#mainsec p {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#mainsec img {
+    width: 300px;
+    margin: 50px auto;
+    display: block;
+}
+
+#mainsec .quick_load {
+    margin-top: 10px;
+    font-size: 1.3em;
+    font-weight: 100;
+}
+
+#mainsec .quick_load a {
+    color: #2e79da;
+}

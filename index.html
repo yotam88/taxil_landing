@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="מלאו שאלון קצר וגלו האם גם אתם זכאים להחזר מס">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="images/Logo_Choose_V3.png" />
+	<link rel="stylesheet" href="css/general.css">
+	<link href="open-sans/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800&subset=hebrew" rel="stylesheet">
+	<title>TaxIL | החזר מס</title>
+</head>
+<body>
+<img id="logo" src="images/Logo_Choose_V3.png" alt="TaxIL-logo">
+<div id="mainContent">
+	<section class="rightSide" id="questions">
+		<h2>האם אתה זכאי להחזר מס?</h2>
+		  <form id="questioneere" action="form.php" method="post">
+            <ul>
+                <li>
+                    <label>האם אתה או בת זוגתך שילמתם מס הכנסה בין השנים 2009-2015?</label><br />
+                    <input type="radio" name="tax1" value="כן" /><span>כן</span>
+                    <input type="radio" name="tax1" value="לא" /><span>לא</span>
+                </li>
+                <li>
+                    <label>האם אתה או בת זוגתך החלפתם מקום עבודה בין השנים 2009-2015?</label><br />
+                    <input type="radio" name="tax2" value="כן" /><span>כן</span>
+                    <input type="radio" name="tax2" value="לא" /><span>לא</span>
+                </li>
+                <li>
+                    <label>האם אתה או בת זוגתך קיבלתם גימלה מביטוח לאומי &lpar;כגון דמי לידה, דמי פגיעה&rpar; בין השנים 2009-2015?</label><br />
+                    <input type="radio" name="tax3" value="כן" /><span>כן</span>
+                    <input type="radio" name="tax3" value="לא" /><span>לא</span>
+                </li>
+                <li>
+                    <label>האם נולד לך ילד בין השנים 2009-2015?</label><br />
+                    <input type="radio" name="tax4" value="כן" /><span>כן</span>
+                    <input type="radio" name="tax4" value="לא" /><span>לא</span>
+                </li>
+                <li>
+                    <label>האם סיימת תואר אקדמי או לימודי תעודה בין השנים 2007-2015?</label><br />
+                    <input type="radio" name="tax5" value="כן" /><span>כן</span>
+                    <input type="radio" name="tax5" value="לא" /><span>לא</span>
+                </li>
+                <li>
+                    <label>האם השתחררת משירות צבאי בין השנים 2007-2015?</label><br />
+                    <input type="radio" name="tax6" value="כן" /><span>כן</span>
+                    <input type="radio" name="tax6" value="לא" /><span>לא</span>
+                </li>
+                <li>
+                    <label>האם היתה לך פעילות בשוק ההון בין השנים 2009-2015?</label>
+                    <br />
+                    <input type="radio" name="tax7" value="כן" /><span>כן</span>
+                    <input type="radio" name="tax7" value="לא" /><span>לא</span>
+                </li>
+            </ul>
+            <input type="text" name="name" placeholder="שם מלא" />
+            <input type="phone" name="phone" placeholder="טלפון" required />
+            <input type="email" name="email" placeholder="מייל" required />
+            <div class="submit">
+                <input type="submit" name="submit" value="בדקו זכאותכם!">
+            </div>
+        </form>
+	</section>
+	
+	<section class="leftSide clearfix" id="text">
+	
+	<div id="insider" class="clearfix">
+	<h2>יכול להיות שמגיע לכם החזר מס...</h2>
+	<h3>צוות המשרד</h3>
+	 <img id="amiram" src="images/amiram.jpg" alt="amiram israel">
+ 		
+	 		<p>
+		החזר מס הוא תהליך שבו כל אדם רשאי לבקש ממס הכנסה להחזיר לו כספים שהוא שילם יתר על המידה. אם נולדו לכם ילדים, סיימתם לימודי תואר ראשון או לימודי תעודה או החלפתם עבודה בשבע השנים האחרונות - ייתכן והמדינה תחזיר לכם חלק מהמיסים ששילמתם.
+		</p>
+		</div>
+	</section>
+</div>
+	
+</body>
+</html>
